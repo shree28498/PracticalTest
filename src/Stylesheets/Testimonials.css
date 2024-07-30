@@ -1,0 +1,25 @@
+
+
+.Testimonials{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.TestimonialsInner{
+    width: 100%;
+    padding: 80px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    background-image: url('../assets/Images/Rectangletestimonial-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.TestimonialsFlexBox{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}

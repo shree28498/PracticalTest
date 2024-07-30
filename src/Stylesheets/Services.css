@@ -1,0 +1,36 @@
+
+
+.servicesCont{
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.servicesCont h1{
+    margin-bottom: 60px;
+}
+
+.servicesCont .servicesInner{
+    width: 100%;
+    padding: 40px 80px;
+}
+
+.servicesCont .servicesInner .cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    flex: 0 30%;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

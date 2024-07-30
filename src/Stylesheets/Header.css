@@ -1,0 +1,128 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.headerWrapper{
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.headerWrapper .headerCont{
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background: transparent;
+}
+@media (max-width: 768px) {
+    .headerWrapper .headerCont{
+        padding: 10px;
+    }
+}
+
+.headerWrapper .headerCont .headerlogo{
+    width: 15%;
+}
+@media (max-width: 1024px) {
+    .headerWrapper .headerCont .headerlogo{
+        width: 20%;
+    }
+}
+@media (max-width: 768px) {
+    .headerWrapper .headerCont .headerlogo{
+        width: 15%;
+    }
+}
+
+.headerWrapper .headerCont .headerlogo img{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.headerWrapper .headerCont .headerNav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+@media (max-width: 1024px) {
+    .headerWrapper .headerCont .headerNav{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+}
+
+.headerWrapper .headerCont .headerNav ul{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 640px) {
+    .headerWrapper .headerCont .headerNav ul{
+        font-size: 14px;
+    }
+}
+
+.headerWrapper .headerCont .headerNav ul li{
+    cursor: pointer;
+    margin-right: 2em;
+}
+
+.headerWrapper .headerCont .headerNav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.headerWrapper .headerCont .headerNav ul li:hover{
+    color: rgba(35, 35, 35, 1);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 1024px) {
+    .headerWrapper .headerCont .headerNav ul li{
+        margin-right: 1em;
+    }
+}
+
+
+.contact-us-btn{
+    width: 20%;
+}
+
+.contact-us-btn span{
+    cursor: pointer;
+    padding: 14px 23px;
+    background-color: #ff6400;
+    color: #fff;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+.contact-us-btn span:hover{
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
+}
+@media (max-width: 1024px) {
+    .contact-us-btn span{
+        padding: 8px 20px;
+    }
+}
+@media (max-width: 640px) {
+    .contact-us-btn span{
+        padding: 7px 10px;
+        border-radius: 200px;
+    }
+}
+
+.menu-icon{
+    display: none;
+}

@@ -1,0 +1,104 @@
+
+
+.FooterComp{
+    width: 100%;
+    padding: 80px;
+    box-sizing: border-box;
+    background-color: rgba(231, 241, 242, 1)
+}
+
+/* .FooterComp .FooterInner{
+    background-color: ;
+} */
+
+.FooterComp .FooterInner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+.FooterComp .FooterInner .FooterLeft{
+    flex: 0 45%;
+}
+
+.FooterComp .FooterInner .FooterLeft .ft-left-cont{
+    width: 85%;
+}
+
+.FooterComp .FooterInner .FooterLeft h4{
+    font-size: 32px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#ft-email{
+    font-size: 22px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    color: rgba(0, 213, 248, 1);
+}
+
+.FooterComp .FooterInner .verticalLine{
+    height: 100px;
+    width: 0.5px;
+    background-color: #5d4a4a;
+}
+
+.FooterComp .FooterInner .FooterRight{
+    flex: 0 45%;
+    padding: 20px;
+}
+
+.FooterComp .FooterInner .FooterRight{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.FooterComp .FooterInner .FooterRight .FTAddress{
+    width: 40%;
+}
+
+.FooterComp .FooterInner .FooterRight h5{
+    font-size: 14px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.FooterComp .FooterInner .FooterRight p{
+    font-size: 15px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+}
+
+.FooterComp .FooterInner .FooterRight .FTContacts{
+    width: 40%;
+}
+
+
+.FooterBottom{
+    width: 80%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Mulish", sans-serif;
+}
+
+.FooterBottom .Logo, .FooterBottom .FooterLink, .FooterBottom .CopyRights{
+    flex: 0 30%;
+}
+
+.FooterBottom .FooterLink ul{
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+
+.FooterBottom .FooterLink ul li{
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 18px;
+}

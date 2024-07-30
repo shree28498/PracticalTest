@@ -1,0 +1,64 @@
+
+
+.ContactForm{
+    width: 100%;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+.ContactFormInner{
+    width: 65%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.ContactFormInner p{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.FormFields{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.PersonDetails{
+    flex: 0 48%;
+    margin-bottom: 30px;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.PersonDetails span{
+    position: absolute;
+    display: block;
+}
+
+.PersonDetails input, .PersonDetails select{
+    width: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.error{
+    color: #ff0000;
+    font-size: 14px;
+}
+
+.submitButton{
+    background-color: #ff6400;
+    color: #fff;
+    border: none;
+    margin: 0 auto;
+}

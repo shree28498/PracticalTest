@@ -1,0 +1,104 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.HomeComp{
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    padding: 10px 80px;
+    position: relative;
+    background: rgba(231, 241, 242, 1);
+    background-image: url('../assets/Images/Pathmain-bg-bottom.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    background-size: inherit;
+    box-sizing: border-box;
+}
+
+.HomeComp .HomeCompBG{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    background-image: url('../assets/Images/Pathbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+}
+
+.HomeComp .HomeMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HomeComp .HomeMain .HomeLeft{
+    flex: 0 40%;
+    position: relative;
+}
+
+.HomeComp .HomeMain .HomeLeft .HomeLeftContent{
+    position: absolute;
+    top: 100px;
+}
+
+.HomeComp .HomeMain .HomeLeft .HomeLeftContent h1{
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 47px;
+}
+
+.HomeComp .HomeMain .HomeLeft .HomeLeftContent p{
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.HomeReactWr{
+    position: absolute;
+    bottom: 10%;
+}
+
+.HomeRectangle{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.HomeRectangle h2{
+    font-family: "Mulish", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    
+}
+
+.HomeRectangle span{
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background: rgba(255, 100, 0, 1);
+    color: #fff;
+}
+
+.HomeComp .banner{
+    flex: 0 48%;
+    position: relative;
+}
+
+.HomeComp .banner img{
+    width: 80%;
+    height: auto;
+    position: absolute;
+    z-index: 100;
+    height: auto;
+} 
