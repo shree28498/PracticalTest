@@ -62,3 +62,14 @@
     border: none;
     margin: 0 auto;
 }
+
+.submitMessage{
+    display: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 38px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    color: #06f906;
+    text-shadow: 1px 1px 4px #000;
+}

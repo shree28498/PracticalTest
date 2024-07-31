@@ -10,6 +10,8 @@ const ContactForm = () => {
         $('#submitButton').click(function (e) {
             e.preventDefault()
             formValidate()
+            $('#submitMessage').show()
+            $('form').hide()
         })
 
         function formValidate() {
@@ -138,6 +140,7 @@ const ContactForm = () => {
                         <button className='submitButton' id='submitButton'>Submit</button>
                     </div>
                 </form>
+                <div className="submitMessage" id='submitMessage'>Thank you!</div>
             </div>
         </div>
     )
