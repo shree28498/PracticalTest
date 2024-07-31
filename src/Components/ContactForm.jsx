@@ -10,8 +10,7 @@ const ContactForm = () => {
         $('#submitButton').click(function (e) {
             e.preventDefault()
             formValidate()
-            $('#submitMessage').show()
-            $('form').hide()
+
         })
 
         function formValidate() {
@@ -90,6 +89,8 @@ const ContactForm = () => {
                         console.log(error);
                     });
 
+                $('#submitMessage').show()
+                $('form').hide()
                 console.log(data);
             } else {
                 console.log('Contact data is missing.');
