@@ -46,6 +46,7 @@ const Blogs = () => {
                     })
                 }
             </div>
+            <div className="viewAllBtn">View All <i class="bi bi-arrow-right"></i></div>
         </div>
     )
 }

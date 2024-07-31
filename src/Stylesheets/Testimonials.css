@@ -16,6 +16,10 @@
     background-position: left;
 }
 
+.TestimonialsCont{
+    padding-bottom: 80px;
+}
+
 .TestimonialsFlexBox{
     margin-top: 70px;
     display: flex;

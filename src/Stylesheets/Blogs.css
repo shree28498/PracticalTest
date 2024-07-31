@@ -53,3 +53,14 @@
 .author-name{
     color: #ff0000;
 }
+
+.viewAllBtn{
+    cursor: pointer;
+    position: absolute;
+    top: 85px;
+    right: 80px;
+    color: rgba(61, 95, 221, 1);
+    font-size: 22px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+}
